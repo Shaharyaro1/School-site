@@ -7,209 +7,250 @@
     <title>EduNest | Contact Us</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 </head>
 
 <body>
-    <!-- Particles container -->
     <div id="particles-js"></div>
 
-    <div class="main-content">
-        <nav class="navbar">
-            <div class="logo">EduNest</div>
-             <div class="hamburger" onclick="toggleMenu()">
-    <i class="fas fa-bars"></i>
-  </div>
-            <ul class="nav-links">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="aboutus.html">ABOUT US</a></li>
-                <li><a href="pages.html">PAGES</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-            </ul>
-            <button class="btn-book">BOOK NOW</button>
-        </nav>
+    <nav class="navbar">
+        <div class="logo">EduNest</div>
+        <div class="hamburger" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+            <li><a href="pages.html">PAGES</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        <button class="btn-book">BOOK NOW</button>
+    </nav>
 
-        <div class="contact-container0">
-            <div class="contact-info">
-                <h3>Our Contact Details</h3>
-                <p><strong>Address:</strong> EduNest Campus, Karachi, Pakistan</p>
-                <p><strong>Email:</strong>
-                    <a href="mailto:info@edunest.com">info@edunest.com</a>
-                </p>
-                <p><strong>Phone:</strong>
-                    <a href="tel:+923062742990">+92 300 0000000</a>
-                </p>
-                <p><strong>Working Hours:</strong> Mon - Fri: 9am - 6pm</p>
+    <!-- Contact Hero -->
+    <section class="contact-hero">
+        <div class="contact-hero-content">
+            <span class="hero-badge"><i class="fas fa-envelope"></i> Get in Touch</span>
+            <h1>We'd Love to <span class="highlight">Hear From You</span></h1>
+            <p>Have questions about admissions, programs, or anything else? Our team is here to help!</p>
+        </div>
+    </section>
 
+    <!-- Contact Info Cards -->
+    <section class="contact-cards">
+        <div class="contact-card">
+            <div class="card-icon">
+                <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <h3>Visit Us</h3>
+            <p>EduNest Campus</p>
+            <p>Karachi, Pakistan</p>
+        </div>
+        <div class="contact-card">
+            <div class="card-icon">
+                <i class="fas fa-phone-alt"></i>
+            </div>
+            <h3>Call Us</h3>
+            <p><a href="tel:+923062742990">+92 306 2742990</a></p>
+            <p>Mon - Fri: 9am - 6pm</p>
+        </div>
+        <div class="contact-card">
+            <div class="card-icon">
+                <i class="fas fa-envelope"></i>
+            </div>
+            <h3>Email Us</h3>
+            <p><a href="mailto:info@edunest.com">info@edunest.com</a></p>
+            <p>We reply within 24 hours</p>
+        </div>
+        <div class="contact-card">
+            <div class="card-icon">
+                <i class="fas fa-clock"></i>
+            </div>
+            <h3>Working Hours</h3>
+            <p>Monday - Friday</p>
+            <p>9:00 AM - 6:00 PM</p>
+        </div>
+    </section>
+
+    <!-- Main Contact Section -->
+    <section class="contact-main">
+        <div class="contact-form-section">
+            <div class="form-header">
+                <span class="section-tag">Send Message</span>
+                <h2>Drop Us a Line</h2>
+                <p>Fill out the form below and we'll get back to you as soon as possible</p>
+            </div>
+            <form class="contact-form-new">
+                <div class="form-row">
+                    <div class="form-field">
+                        <label><i class="fas fa-user"></i> Your Name</label>
+                        <input type="text" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-field">
+                        <label><i class="fas fa-envelope"></i> Your Email</label>
+                        <input type="email" placeholder="john@example.com" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-field">
+                        <label><i class="fas fa-phone"></i> Phone Number</label>
+                        <input type="tel" placeholder="+92 300 0000000">
+                    </div>
+                    <div class="form-field">
+                        <label><i class="fas fa-tag"></i> Subject</label>
+                        <select required>
+                            <option value="">Select a subject</option>
+                            <option value="admission">Admission Inquiry</option>
+                            <option value="programs">Programs Information</option>
+                            <option value="fees">Fee Structure</option>
+                            <option value="career">Career Opportunities</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-field full-width">
+                    <label><i class="fas fa-comment"></i> Your Message</label>
+                    <textarea rows="5" placeholder="Write your message here..." required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">
+                    <span>Send Message</span>
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+
+        <div class="contact-map-section">
+            <div class="map-header">
+                <span class="section-tag">Our Location</span>
+                <h2>Find Us Here</h2>
+            </div>
+            <div class="map-wrapper">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.1256062570793!2d67.0011363752845!3d24.86074477793615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33dfbde4b7bcd%3A0x8bbd37a9d8f9dd11!2sKarachi!5e0!3m2!1sen!2s!4v1690000000000" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="map-info">
+                <div class="info-item">
+                    <i class="fas fa-directions"></i>
+                    <span>Get Directions</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-car"></i>
+                    <span>Parking Available</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section - Compact -->
+    <section class="contact-faq-compact">
+        <div class="faq-compact-header">
+            <h2><i class="fas fa-question-circle"></i> Frequently Asked Questions</h2>
+        </div>
+        <div class="faq-compact-list">
+            <div class="faq-compact-item">
+                <i class="fas fa-graduation-cap"></i>
+                <span class="faq-q">Admission Requirements?</span>
+                <span class="faq-a">Academic records, entrance test & parent interview required</span>
+            </div>
+            <div class="faq-compact-item">
+                <i class="fas fa-money-bill-wave"></i>
+                <span class="faq-q">Fee Structure?</span>
+                <span class="faq-a">Contact admissions office for grade-wise fee details</span>
+            </div>
+            <div class="faq-compact-item">
+                <i class="fas fa-bus"></i>
+                <span class="faq-q">Transportation?</span>
+                <span class="faq-a">GPS-tracked buses covering all major Karachi areas</span>
+            </div>
+            <div class="faq-compact-item">
+                <i class="fas fa-futbol"></i>
+                <span class="faq-q">Activities?</span>
+                <span class="faq-a">Sports, arts, music, robotics, debate & more</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Connect -->
+    <section class="contact-social">
+        <h2>Connect With Us</h2>
+        <p>Follow us on social media for updates, events, and more!</p>
+        <div class="social-links">
+            <a href="#" class="social-link facebook">
+                <i class="fab fa-facebook-f"></i>
+                <span>Facebook</span>
+            </a>
+            <a href="#" class="social-link twitter">
+                <i class="fab fa-twitter"></i>
+                <span>Twitter</span>
+            </a>
+            <a href="#" class="social-link instagram">
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+            </a>
+            <a href="#" class="social-link linkedin">
+                <i class="fab fa-linkedin-in"></i>
+                <span>LinkedIn</span>
+            </a>
+            <a href="https://wa.me/923062742990" class="social-link whatsapp">
+                <i class="fab fa-whatsapp"></i>
+                <span>WhatsApp</span>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-about">
+                <h2>EduNest</h2>
+                <p>Empowering students with knowledge and creativity. Join us in shaping a brighter future through innovation and learning.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="pages.html">Pages</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact</h3>
+                <p>Email: <a href="mailto:babasheri322@gmail.com">babasheri322@gmail.com</a></p>
+                <p>Phone: <a href="https://wa.me/923062742990">+92 306 2742990</a></p>
                 <div class="social-icons">
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
                     <a href="#"><i class="fab fa-twitter"></i></a>
                     <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 </div>
-            </div>
-
-            <div class="contact-form">
-                <h3>Send Us a Message</h3>
-                <form action="#" method="post">
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="email" placeholder="Your Email" required>
-                    <input type="text" placeholder="Subject" required>
-                    <textarea rows="3" placeholder="Your Message" required></textarea>
-                    <button type="submit">Send Message</button>
-                </form>
             </div>
         </div>
-
-        <footer>
-            <div class="footer-container">
-                <div class="footer-about">
-                    <h2>EduNest</h2>
-                    <p>
-                        Empowering students with knowledge and creativity. Join us in shaping
-                        a brighter future through innovation and learning.
-                    </p>
-                </div>
-
-                <div class="footer-links">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="aboutus.html">About Us</a></li>
-                        <li><a href="pages.html">Pages</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-contact">
-                    <h3>Contact</h3>
-                    <p>
-                        Email:
-                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=babasheri322@gmail.com" target="_blank">
-                            babasheri322@gmail.com
-                        </a>
-                    </p>
-                    <p>
-                        Phone:
-                        <a href="https://wa.me/923062742990" target="_blank">
-                            +92 306 2742990
-                        </a>
-                    </p>
-                    <div class="social-icons">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="footer-bottom">
-                <p>© 2025 EduNest | All Rights Reserved</p>
-            </div>
-        </footer>
-    </div>
-
-    <!-- Particles.js library -->
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <div class="footer-bottom">
+            <p>© 2025 EduNest | All Rights Reserved</p>
+        </div>
+    </footer>
 
     <script>
-     
-  function toggleMenu() {
-    document.getElementById("navLinks").classList.toggle("active");
-  }
+        function toggleMenu() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        }
 
-
-        // Initialize particles.js
-        document.addEventListener('DOMContentLoaded', function () {
+        document.addEventListener('DOMContentLoaded', function() {
             particlesJS('particles-js', {
                 "particles": {
-                    "number": {
-                        "value": 80,
-                        "density": {
-                            "enable": true,
-                            "value_area": 800
-                        }
-                    },
-                    "color": {
-                        "value": "#7da2a9"
-                    },
-                    "shape": {
-                        "type": "circle",
-                        "stroke": {
-                            "width": 0,
-                            "color": "#000000"
-                        }
-                    },
-                    "opacity": {
-                        "value": 0.5,
-                        "random": true,
-                        "anim": {
-                            "enable": true,
-                            "speed": 1,
-                            "opacity_min": 0.1,
-                            "sync": false
-                        }
-                    },
-                    "size": {
-                        "value": 3,
-                        "random": true,
-                        "anim": {
-                            "enable": true,
-                            "speed": 2,
-                            "size_min": 0.1,
-                            "sync": false
-                        }
-                    },
-                    "line_linked": {
-                        "enable": true,
-                        "distance": 150,
-                        "color": "#7da2a9",
-                        "opacity": 0.4,
-                        "width": 1
-                    },
-                    "move": {
-                        "enable": true,
-                        "speed": 2,
-                        "direction": "none",
-                        "random": true,
-                        "straight": false,
-                        "out_mode": "out",
-                        "bounce": false,
-                        "attract": {
-                            "enable": true,
-                            "rotateX": 600,
-                            "rotateY": 1200
-                        }
-                    }
+                    "number": { "value": 50, "density": { "enable": true, "value_area": 800 } },
+                    "color": { "value": "#2d6a4f" },
+                    "shape": { "type": "circle" },
+                    "opacity": { "value": 0.2, "random": true },
+                    "size": { "value": 3, "random": true },
+                    "line_linked": { "enable": true, "distance": 150, "color": "#40916c", "opacity": 0.15, "width": 1 },
+                    "move": { "enable": true, "speed": 1, "direction": "none", "random": true, "out_mode": "out" }
                 },
                 "interactivity": {
-                    "detect_on": "canvas",
-                    "events": {
-                        "onhover": {
-                            "enable": true,
-                            "mode": "grab"
-                        },
-                        "onclick": {
-                            "enable": true,
-                            "mode": "push"
-                        },
-                        "resize": true
-                    },
-                    "modes": {
-                        "grab": {
-                            "distance": 140,
-                            "line_linked": {
-                                "opacity": 1
-                            }
-                        },
-                        "push": {
-                            "particles_nb": 4
-                        }
-                    }
+                    "events": { "onhover": { "enable": true, "mode": "grab" } },
+                    "modes": { "grab": { "distance": 140, "line_linked": { "opacity": 0.4 } } }
                 },
                 "retina_detect": true
             });
         });
     </script>
 </body>
-
 </html>
