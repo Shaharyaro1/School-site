@@ -4,20 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EduNes\pages</title>
+    <title>EduNest | Our Expert Faculty</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 </head>
 
 <body>
-
     <div id="particles-js"></div>
 
     <nav class="navbar">
         <div class="logo">EduNest</div>
-         <div class="hamburger" onclick="toggleMenu()">
-    <i class="fas fa-bars"></i>
-  </div>
+        <div class="hamburger" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
         <ul class="nav-links">
             <li><a href="index.html">HOME</a></li>
             <li><a href="aboutus.html">ABOUT US</a></li>
@@ -27,128 +27,228 @@
         <button class="btn-book">BOOK NOW</button>
     </nav>
 
-    <header>
-        <h1>Our Teachers & Qualifications</h1>
-        <p>Highly Qualified Professionals Dedicated to Education</p>
-    </header>
+    <!-- Hero Section -->
+    <section class="teachers-hero">
+        <div class="teachers-hero-content">
+            <span class="hero-badge"><i class="fas fa-users"></i> Meet Our Team</span>
+            <h1>Learn From The <span class="highlight">Best Educators</span></h1>
+            <p>Our passionate teachers bring years of experience and dedication to help every student succeed</p>
+        </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path fill="#ffffff" d="M0,64L80,69.3C160,75,320,85,480,80C640,75,800,53,960,48C1120,43,1280,53,1360,58.7L1440,64L1440,120L1360,120C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120L0,120Z"></path>
+            </svg>
+        </div>
+    </section>
 
-    <div class="teachers-container">
-
-        <div class="teacher-card">
-            <div class="teacher-image">
-                <img src="" alt="Prof. James Wilson">
-            </div>
-            <h3>Prof. Abdullah Khan</h3>
-            <p> MFA in Fine Arts, Parsons School of Design</p>
-            <span class="subject">Art & Design</span>
-            <div class="profile-links">
-                <a href="https://linkedin.com/in/jameswilson" target="_blank" aria-label="LinkedIn"><i
-                        class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/jameswilson" target="_blank" aria-label="GitHub"><i
-                        class="fab fa-github"></i></a>
-                <a href="https://facebook.com/jameswilson" target="_blank" aria-label="Facebook"><i
-                        class="fab fa-facebook"></i></a>
+    <!-- Stats Bar -->
+    <section class="teachers-stats">
+        <div class="stat-box">
+            <i class="fas fa-chalkboard-teacher"></i>
+            <div class="stat-info">
+                <strong>150+</strong>
+                <span>Expert Teachers</span>
             </div>
         </div>
-
-        <div class="teacher-card">
-            <div class="teacher-image">
-                <img src="" alt="Dr. Emily Carter">
-            </div>
-            <h3>Dr. Ayesha</h3>
-            <p> PhD in Physics, MIT</p>
-            <span class="subject">Physics</span>
-            <div class="profile-links">
-                <a href="https://linkedin.com/in/emilycarter" target="_blank" aria-label="LinkedIn"><i
-                        class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/emilycarter" target="_blank" aria-label="GitHub"><i
-                        class="fab fa-github"></i></a>
-                <a href="https://researchgate.net/emilycarter" target="_blank" aria-label="ResearchGate"><i
-                        class="fab fa-researchgate"></i></a>
+        <div class="stat-box">
+            <i class="fas fa-graduation-cap"></i>
+            <div class="stat-info">
+                <strong>95%</strong>
+                <span>PhD Holders</span>
             </div>
         </div>
-
-        <div class="teacher-card">
-            <div class="teacher-image">
-                <img src="" alt="Mr. Ahmed Khan">
-            </div>
-            <h3>Mr. Ahmed Khan</h3>
-            <p>Qualification: MSc in Computer Science, University of Karachi</p>
-            <span class="subject">Computer Science</span>
-            <div class="profile-links">
-                <a href="https://linkedin.com/in/ahmedkhan" target="_blank" aria-label="LinkedIn"><i
-                        class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/ahmedkhan" target="_blank" aria-label="GitHub"><i
-                        class="fab fa-github"></i></a>
-                <a href="https://twitter.com/ahmedkhan" target="_blank" aria-label="Twitter"><i
-                        class="fab fa-twitter"></i></a>
+        <div class="stat-box">
+            <i class="fas fa-award"></i>
+            <div class="stat-info">
+                <strong>50+</strong>
+                <span>Awards Won</span>
             </div>
         </div>
-
-        <div class="teacher-card">
-            <div class="teacher-image">
-                <img src="" alt="Ms. Sarah">
-            </div>
-            <h3>Ms. Sarah </h3>
-            <p>MA in English Literature, Oxford University</p>
-            <span class="subject">English</span>
-            <div class="profile-links">
-                <a href="https://linkedin.com/in/sarahjohnson" target="_blank" aria-label="LinkedIn"><i
-                        class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/sarahjohnson" target="_blank" aria-label="GitHub"><i
-                        class="fab fa-github"></i></a>
-                <a href="https://instagram.com/sarahjohnson" target="_blank" aria-label="Instagram"><i
-                        class="fab fa-instagram"></i></a>
+        <div class="stat-box">
+            <i class="fas fa-heart"></i>
+            <div class="stat-info">
+                <strong>15+</strong>
+                <span>Years Experience</span>
             </div>
         </div>
+    </section>
 
-        <div class="teacher-card">
-            <div class="teacher-image">
-                <img src="" alt="Mr. Ali Khan">
-            </div>
-            <h3>Mr. Ali Khan </h3>
-            <p>MA in Urdu Literature, Oxford University</p>
-            <span class="subject">Urdu</span>
-            <div class="profile-links">
-                <a href="https://linkedin.com/in/sarahjohnson" target="_blank" aria-label="LinkedIn"><i
-                        class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/sarahjohnson" target="_blank" aria-label="GitHub"><i
-                        class="fab fa-github"></i></a>
-                <a href="https://instagram.com/sarahjohnson" target="_blank" aria-label="Instagram"><i
-                        class="fab fa-instagram"></i></a>
-            </div>
+    <!-- Teachers Section -->
+    <section class="teachers-section">
+        <div class="teachers-header">
+            <span class="section-tag">Our Faculty</span>
+            <h2>Meet Our Amazing Teachers</h2>
+            <p>Dedicated professionals committed to nurturing young minds and inspiring excellence</p>
         </div>
 
-        <div class="teacher-card">
-            <div class="teacher-image">
-                <img src="" alt="Mr. Farman">
+        <div class="teachers-grid">
+            <!-- Teacher 1 -->
+            <div class="teacher-card-new">
+                <div class="teacher-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=300" alt="Prof. Abdullah Khan">
+                    <div class="teacher-overlay">
+                        <div class="teacher-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="teacher-info">
+                    <span class="teacher-subject">Art & Design</span>
+                    <h3>Prof. Abdullah Khan</h3>
+                    <p>MFA in Fine Arts, Parsons School of Design</p>
+                    <div class="teacher-meta">
+                        <span><i class="fas fa-briefcase"></i> 12 Years</span>
+                        <span><i class="fas fa-users"></i> 500+ Students</span>
+                    </div>
+                </div>
             </div>
-            <h3>Mr. Farman </h3>
-            <p>MA in English Literature, Oxford University</p>
-            <span class="subject">English</span>
-            <div class="profile-links">
-                <a href="https://linkedin.com/in/sarahjohnson" target="_blank" aria-label="LinkedIn"><i
-                        class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/sarahjohnson" target="_blank" aria-label="GitHub"><i
-                        class="fab fa-github"></i></a>
-                <a href="https://instagram.com/sarahjohnson" target="_blank" aria-label="Instagram"><i
-                        class="fab fa-instagram"></i></a>
+
+            <!-- Teacher 2 -->
+            <div class="teacher-card-new">
+                <div class="teacher-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300" alt="Dr. Ayesha">
+                    <div class="teacher-overlay">
+                        <div class="teacher-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="teacher-info">
+                    <span class="teacher-subject">Physics</span>
+                    <h3>Dr. Ayesha Malik</h3>
+                    <p>PhD in Physics, MIT</p>
+                    <div class="teacher-meta">
+                        <span><i class="fas fa-briefcase"></i> 15 Years</span>
+                        <span><i class="fas fa-users"></i> 800+ Students</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Teacher 3 -->
+            <div class="teacher-card-new">
+                <div class="teacher-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=300" alt="Mr. Ahmed Khan">
+                    <div class="teacher-overlay">
+                        <div class="teacher-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="teacher-info">
+                    <span class="teacher-subject">Computer Science</span>
+                    <h3>Mr. Ahmed Khan</h3>
+                    <p>MSc in Computer Science, University of Karachi</p>
+                    <div class="teacher-meta">
+                        <span><i class="fas fa-briefcase"></i> 10 Years</span>
+                        <span><i class="fas fa-users"></i> 600+ Students</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Teacher 4 -->
+            <div class="teacher-card-new">
+                <div class="teacher-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300" alt="Ms. Sarah">
+                    <div class="teacher-overlay">
+                        <div class="teacher-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="teacher-info">
+                    <span class="teacher-subject">English</span>
+                    <h3>Ms. Sarah Johnson</h3>
+                    <p>MA in English Literature, Oxford University</p>
+                    <div class="teacher-meta">
+                        <span><i class="fas fa-briefcase"></i> 8 Years</span>
+                        <span><i class="fas fa-users"></i> 450+ Students</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Teacher 5 -->
+            <div class="teacher-card-new">
+                <div class="teacher-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300" alt="Mr. Ali Khan">
+                    <div class="teacher-overlay">
+                        <div class="teacher-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="teacher-info">
+                    <span class="teacher-subject">Urdu</span>
+                    <h3>Mr. Ali Khan</h3>
+                    <p>MA in Urdu Literature, Punjab University</p>
+                    <div class="teacher-meta">
+                        <span><i class="fas fa-briefcase"></i> 14 Years</span>
+                        <span><i class="fas fa-users"></i> 700+ Students</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Teacher 6 -->
+            <div class="teacher-card-new">
+                <div class="teacher-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300" alt="Mr. Farman">
+                    <div class="teacher-overlay">
+                        <div class="teacher-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="teacher-info">
+                    <span class="teacher-subject">Mathematics</span>
+                    <h3>Mr. Farman Ali</h3>
+                    <p>MSc in Mathematics, LUMS</p>
+                    <div class="teacher-meta">
+                        <span><i class="fas fa-briefcase"></i> 11 Years</span>
+                        <span><i class="fas fa-users"></i> 550+ Students</span>
+                    </div>
+                </div>
             </div>
         </div>
+    </section>
 
-    </div>
-
+    <!-- Join Team CTA -->
+    <section class="join-team">
+        <div class="join-content">
+            <div class="join-text">
+                <span class="section-tag">Careers</span>
+                <h2>Join Our Teaching Family</h2>
+                <p>Are you passionate about education? We're always looking for talented educators to join our team and make a difference in students' lives.</p>
+                <ul class="join-benefits">
+                    <li><i class="fas fa-check-circle"></i> Competitive Salary</li>
+                    <li><i class="fas fa-check-circle"></i> Professional Development</li>
+                    <li><i class="fas fa-check-circle"></i> Supportive Environment</li>
+                    <li><i class="fas fa-check-circle"></i> Modern Facilities</li>
+                </ul>
+                <a href="contact.html" class="btn-join">Apply Now <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="join-image">
+                <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=500" alt="Join Our Team">
+            </div>
+        </div>
+    </section>
 
     <footer>
         <div class="footer-container">
             <div class="footer-about">
                 <h2>EduNest</h2>
-                <p>
-                    Empowering students with knowledge and creativity. Join us in shaping
-                    a brighter future through innovation and learning.
-                </p>
+                <p>Empowering students with knowledge and creativity. Join us in shaping a brighter future through innovation and learning.</p>
             </div>
-
             <div class="footer-links">
                 <h3>Quick Links</h3>
                 <ul>
@@ -158,21 +258,10 @@
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
-
             <div class="footer-contact">
                 <h3>Contact</h3>
-                <p>
-                    Email:
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=babasheri322@gmail.com" target="_blank">
-                        babasheri322@gmail.com
-                    </a>
-                <p>
-                <p>
-                    Phone:
-                    <a href="https://wa.me/923062742990" target="_blank">
-                        +92 306 2742990
-                    </a>
-                </p>
+                <p>Email: <a href="mailto:babasheri322@gmail.com">babasheri322@gmail.com</a></p>
+                <p>Phone: <a href="https://wa.me/923062742990">+92 306 2742990</a></p>
                 <div class="social-icons">
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
                     <a href="#"><i class="fab fa-twitter"></i></a>
@@ -180,112 +269,35 @@
                 </div>
             </div>
         </div>
-
         <div class="footer-bottom">
             <p>© 2025 EduNest | All Rights Reserved</p>
         </div>
     </footer>
-    <!-- Particles.js library -->
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
     <script>
-        
-  function toggleMenu() {
-    document.getElementById("navLinks").classList.toggle("active");
-  }
+        function toggleMenu() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        }
 
-
-        // Initialize particles.js
-        document.addEventListener('DOMContentLoaded', function () {
+        document.addEventListener('DOMContentLoaded', function() {
             particlesJS('particles-js', {
                 "particles": {
-                    "number": {
-                        "value": 80,
-                        "density": {
-                            "enable": true,
-                            "value_area": 800
-                        }
-                    },
-                    "color": {
-                        "value": "#7da2a9"
-                    },
-                    "shape": {
-                        "type": "circle",
-                        "stroke": {
-                            "width": 0,
-                            "color": "#000000"
-                        }
-                    },
-                    "opacity": {
-                        "value": 0.5,
-                        "random": true,
-                        "anim": {
-                            "enable": true,
-                            "speed": 1,
-                            "opacity_min": 0.1,
-                            "sync": false
-                        }
-                    },
-                    "size": {
-                        "value": 3,
-                        "random": true,
-                        "anim": {
-                            "enable": true,
-                            "speed": 2,
-                            "size_min": 0.1,
-                            "sync": false
-                        }
-                    },
-                    "line_linked": {
-                        "enable": true,
-                        "distance": 150,
-                        "color": "#7da2a9",
-                        "opacity": 0.4,
-                        "width": 1
-                    },
-                    "move": {
-                        "enable": true,
-                        "speed": 2,
-                        "direction": "none",
-                        "random": true,
-                        "straight": false,
-                        "out_mode": "out",
-                        "bounce": false,
-                        "attract": {
-                            "enable": true,
-                            "rotateX": 600,
-                            "rotateY": 1200
-                        }
-                    }
+                    "number": { "value": 50, "density": { "enable": true, "value_area": 800 } },
+                    "color": { "value": "#2d6a4f" },
+                    "shape": { "type": "circle" },
+                    "opacity": { "value": 0.2, "random": true },
+                    "size": { "value": 3, "random": true },
+                    "line_linked": { "enable": true, "distance": 150, "color": "#40916c", "opacity": 0.15, "width": 1 },
+                    "move": { "enable": true, "speed": 1, "direction": "none", "random": true, "out_mode": "out" }
                 },
                 "interactivity": {
-                    "detect_on": "canvas",
-                    "events": {
-                        "onhover": {
-                            "enable": true,
-                            "mode": "grab"
-                        },
-                        "onclick": {
-                            "enable": true,
-                            "mode": "push"
-                        },
-                        "resize": true
-                    },
-                    "modes": {
-                        "grab": {
-                            "distance": 140,
-                            "line_linked": {
-                                "opacity": 1
-                            }
-                        },
-                        "push": {
-                            "particles_nb": 4
-                        }
-                    }
+                    "events": { "onhover": { "enable": true, "mode": "grab" } },
+                    "modes": { "grab": { "distance": 140, "line_linked": { "opacity": 0.4 } } }
                 },
                 "retina_detect": true
             });
         });
     </script>
 </body>
-
 </html>
+li></li>
