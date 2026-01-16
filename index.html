@@ -4,12 +4,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>edunest.com</title>
+  <title>EduNest - Where Learning Comes Alive</title>
   <link rel="stylesheet" href="style.css" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 </head>
 
 <body>
+  <div id="particles-js"></div>
 
   <nav class="navbar">
     <div class="logo">EduNest</div>
@@ -24,191 +26,281 @@
     </ul>
     <button class="btn-book">BOOK NOW</button>
   </nav>
-  <div class="main-container">
-    <div class="content">
-      <h1 class="tittle">Welcome to EduNest School</h1>
-      <p class="descripation">Edunest is an educational platform dedicated to providing quality learning to students. It
-        offers courses, online classes, and study materials to make learning easier and more effective. The goal of
-        Edunest is to help every student achieve academic success.</p>
-    </div>
-  </div>
-  <div class="container1">
-    <div class="about-us">
-      <h1 class="tittle1">CHILDREN'S EduNest School</h1>
-      <h2 class="about-title">ABOUT OUR SCHOOL</h2>
-      <p class="aboutus">At Children's EduNest School, we believe every child is born with unique potential. Founded on
-        the principles of holistic development, creativity, and academic excellence, we provide a nurturing, safe, and
-        stimulating environment where young minds flourish. Our child-centric approach blends innovative teaching
-        methodologies with play-based learning to foster curiosity, confidence, and lifelong skills.</p>
-    </div>
-  </div>
-  <div class="container2">
-    <div class="about-us">
-      <h1 class="tittle2"> ALL OUR PROGRAMS</h1>
-      <p class="aboutus">EduNext School mein hum bachchon ke samuhik vikas par focus karte hain. Hamare innovative
-        programs jaise Creative Arts Lab, Young Scientists Club, Math Warriors aur Language Explorers bachchon ko ek
-        balanced education pradan karte hain. Humara lakshya hai bachchon mein na sirf academic knowledge ka vikas
-        karna, balki unki creativity, critical thinking aur social skills ko bhi promote karna. Play-based learning
-        activities ke through, hum bachchon ko seekhne ka ek joyful anubhav pradan karte hain jo unhe lifetime ke liye
-        learners bana deta hai.</p>
-      <div class="art-programs">
-        <div class="program-card">
-          <h3>ART EXPLORATION</h3>
-          <p>Our approach to art making for preschoolers and younger kids is age appropriate and fun.</p>
-        </div>
 
-        <div class="program-card">
-          <h3>SPRING BREAK CAMPS</h3>
-          <p>Our week long school break programs are designed to give students a way to grow artistically at a more
-            leisurely pace.</p>
+  <!-- Hero Section - New Design -->
+  <section class="home-hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <span class="hero-tag"><i class="fas fa-graduation-cap"></i> Welcome to EduNest</span>
+        <h1>Nurturing Young Minds for a <span class="highlight">Brighter Tomorrow</span></h1>
+        <p>Where every child discovers their unique potential through innovative learning, creative exploration, and a supportive community that celebrates growth.</p>
+        <div class="hero-buttons">
+          <a href="aboutus.html" class="btn-hero-primary"><i class="fas fa-play-circle"></i> Explore More</a>
+          <a href="contact.html" class="btn-hero-secondary">Get in Touch</a>
         </div>
-
-        <div class="program-card">
-          <h3>FINE ART FUNDAMENTALS</h3>
-          <p>Structured as a developmental program spanning four sessions during one school year.</p>
-        </div>
-
-        <div class="program-card">
-          <h3>ART CAMPS & CLASSES</h3>
-          <p>Our summer art camps allow kids to explore the full variety of art media from drawing still life.</p>
-        </div>
-
-        <div class="program-card">
-          <h3>ADVANCED EXPLORATION</h3>
-          <p>This program is designed to develop self-directed art makers, the students design their own projects.</p>
-        </div>
-
-        <div class="program-card">
-          <h3>HOMESCHOOL ART</h3>
-          <p>Our homeschool art classes feature a curriculum that will develop your child's creative and critical
-            thinking.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container3">
-    <div class="image"></div>
-    <div class="contact-container">
-      <h2 class="contact-title">DISCOVER OUR WORLD OF BOOKS</h2>
-      <p class="contact-description">
-        Books are magical portals to endless knowledge and imagination. At EduNext School, we cultivate a vibrant
-        reading culture where students discover the joy of literature. Our well-stocked library houses over 5,000
-        carefully curated books spanning classic literature, modern fiction, scientific explorations, historical
-        accounts, and artistic masterpieces. Through our daily reading programs and book clubs, we nurture critical
-        thinking, enhance vocabulary, and foster a lifelong love for reading - the most fundamental skill for academic
-        and personal success.
-      </p>
-      <a href="#" class="read-more-btn">read more</a>
-    </div>
-  </div>
-  <div class="gallery-section">
-    <div class="gallery-header">
-      <h2 class="gallery-title">OUR GALLERY</h2>
-      <p class="gallery-description">
-        The Art Education Section aims at teaching art and spreading interest in art
-        among different age groups. This is achieved through diverse trainings and
-        workshops for different categories.
-      </p>
-    </div>
-  </div>
-  <div class="slider">
-    <div class="image-side" id="imageSide">
-      <div class="slide active">
-        <img src="galleryimages.jpg">
-      </div>
-      <div class="slide">
-        <img src="galleryimages1.jpg">
-      </div>
-      <div class="slide">
-        <img src="galleryimages2.jpg">
-      </div>
-      <div class="slide">
-        <img src="galleryimages3.jpg">
-      </div>
-    </div>
-    <div class="text-side" id="textSide">
-      <h2> Symphony of Colors</h2>
-      <p>This painting exemplifies children's creativity. Through vibrant
-        colors and brush strokes, it captures nature's beauty in a
-        unique perspective.</p>
-    </div>
-  </div>
-  <div class="students-data">
-    <div class="box">
-      <h3>5k</h3>
-      <p>STUDENTS</p>
-    </div>
-    <div class="box">
-      <h3>150</h3>
-      <p>TEACHERS</p>
-    </div>
-    <div class="box">
-      <h3>45</h3>
-      <p>WINNERS</p>
-    </div>
-    <div class="box">
-      <h3>15</h3>
-      <p>AWARDS</p>
-    </div>
-  </div>
-  <div class="submit-data">
-    <div class="map">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.1256062570793!2d67.0011363752845!3d24.86074477793615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33dfbde4b7bcd%3A0x8bbd37a9d8f9dd11!2sKarachi!5e0!3m2!1sen!2s!4v1690000000000"
-        allowfullscreen="" loading="lazy">
-      </iframe>
-    </div>
-    <div class="form-container">
-      <div class="form-section">
-        <h2>Contact Us</h2>
-        <form>
-          <div class="form-group">
-            <input type="text" placeholder="Your Name" required>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <strong>5000+</strong>
+            <span>Students</span>
           </div>
-          <div class="form-group">
-            <input type="email" placeholder="Your Email" required>
+          <div class="hero-stat">
+            <strong>150+</strong>
+            <span>Teachers</span>
           </div>
-          <div class="form-group">
-            <textarea rows="3" placeholder="Your Message" required></textarea>
+          <div class="hero-stat">
+            <strong>15+</strong>
+            <span>Years</span>
           </div>
-          <button type="submit" class="submit-btn">Send Message</button>
-        </form>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="hero-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600" alt="Happy Students">
+          <div class="floating-card card-1">
+            <i class="fas fa-book-reader"></i>
+            <span>Quality Education</span>
+          </div>
+          <div class="floating-card card-2">
+            <i class="fas fa-award"></i>
+            <span>Award Winning</span>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="home-features">
+    <div class="features-header">
+      <span class="section-tag">Why Choose Us</span>
+      <h2>What Makes EduNest Special</h2>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+        <h3>Expert Faculty</h3>
+        <p>Learn from highly qualified and passionate educators dedicated to your success.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fas fa-laptop-code"></i></div>
+        <h3>Modern Learning</h3>
+        <p>State-of-the-art facilities with technology-integrated classrooms.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fas fa-users"></i></div>
+        <h3>Small Class Sizes</h3>
+        <p>Personalized attention with optimal student-teacher ratios.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fas fa-palette"></i></div>
+        <h3>Creative Arts</h3>
+        <p>Comprehensive arts program nurturing creativity and expression.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Preview Section -->
+  <section class="home-about">
+    <div class="about-image-side">
+      <div class="about-img-main">
+        <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?w=500" alt="Classroom">
+      </div>
+      <div class="about-img-secondary">
+        <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=300" alt="Students">
+      </div>
+      <div class="experience-box">
+        <span class="exp-num">15+</span>
+        <span class="exp-label">Years of Excellence</span>
+      </div>
+    </div>
+    <div class="about-content-side">
+      <span class="section-tag">About EduNest</span>
+      <h2>Building Strong Foundations for Lifelong Success</h2>
+      <p>At EduNest, we believe every child is born with unique potential. Our holistic approach combines academic excellence with character development, preparing students not just for exams, but for life.</p>
+      <ul class="about-list">
+        <li><i class="fas fa-check-circle"></i> Child-centric learning approach</li>
+        <li><i class="fas fa-check-circle"></i> Safe and nurturing environment</li>
+        <li><i class="fas fa-check-circle"></i> Focus on holistic development</li>
+        <li><i class="fas fa-check-circle"></i> Strong parent-school partnership</li>
+      </ul>
+      <a href="aboutus.html" class="btn-learn-more">Learn More About Us <i class="fas fa-arrow-right"></i></a>
+    </div>
+  </section>
+
+  <!-- Programs Section -->
+  <section class="home-programs">
+    <div class="programs-header">
+      <span class="section-tag">Our Programs</span>
+      <h2>Explore Our Learning Programs</h2>
+      <p>Comprehensive programs designed to nurture every aspect of your child's development</p>
+    </div>
+    <div class="programs-grid">
+      <div class="program-item">
+        <div class="program-icon"><i class="fas fa-paint-brush"></i></div>
+        <h3>Art Exploration</h3>
+        <p>Age-appropriate art activities that spark creativity and imagination in young minds.</p>
+        <a href="#" class="program-link">Learn More <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="program-item">
+        <div class="program-icon"><i class="fas fa-flask"></i></div>
+        <h3>Science Lab</h3>
+        <p>Hands-on experiments that make science fun and develop critical thinking skills.</p>
+        <a href="#" class="program-link">Learn More <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="program-item">
+        <div class="program-icon"><i class="fas fa-music"></i></div>
+        <h3>Music & Dance</h3>
+        <p>Express yourself through rhythm, melody, and movement in our performing arts program.</p>
+        <a href="#" class="program-link">Learn More <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="program-item">
+        <div class="program-icon"><i class="fas fa-futbol"></i></div>
+        <h3>Sports Academy</h3>
+        <p>Build teamwork, discipline, and physical fitness through various sports activities.</p>
+        <a href="#" class="program-link">Learn More <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="program-item">
+        <div class="program-icon"><i class="fas fa-language"></i></div>
+        <h3>Language Skills</h3>
+        <p>Master communication with our comprehensive language development programs.</p>
+        <a href="#" class="program-link">Learn More <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="program-item">
+        <div class="program-icon"><i class="fas fa-robot"></i></div>
+        <h3>Robotics Club</h3>
+        <p>Introduction to coding and robotics preparing students for the future.</p>
+        <a href="#" class="program-link">Learn More <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="home-gallery">
+    <div class="gallery-content">
+      <span class="section-tag">Our Gallery</span>
+      <h2>Moments of Joy & Learning</h2>
+      <p>Capturing the beautiful journey of growth, creativity, and achievement at EduNest</p>
+    </div>
+    <div class="gallery-slider">
+      <div class="gallery-track">
+        <div class="gallery-slide active">
+          <img src="galleryimages.jpg" alt="Gallery 1">
+        </div>
+        <div class="gallery-slide">
+          <img src="galleryimages1.jpg" alt="Gallery 2">
+        </div>
+        <div class="gallery-slide">
+          <img src="galleryimages2.jpg" alt="Gallery 3">
+        </div>
+        <div class="gallery-slide">
+          <img src="galleryimages3.jpg" alt="Gallery 4">
+        </div>
+      </div>
+      <div class="gallery-info" id="galleryInfo">
+        <h3>Symphony of Colors</h3>
+        <p>This painting exemplifies children's creativity through vibrant colors and brush strokes.</p>
+      </div>
+      <div class="gallery-dots">
+        <span class="dot active" onclick="goToSlide(0)"></span>
+        <span class="dot" onclick="goToSlide(1)"></span>
+        <span class="dot" onclick="goToSlide(2)"></span>
+        <span class="dot" onclick="goToSlide(3)"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="home-testimonials">
+    <div class="testimonials-header">
+      <span class="section-tag">Testimonials</span>
+      <h2>What Parents Say</h2>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+        <p>"EduNest has transformed my child's learning experience. The teachers are caring and the environment is perfect for growth."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">A</div>
+          <div class="author-info">
+            <strong>Ayesha Khan</strong>
+            <span>Parent of Grade 3 Student</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+        <p>"The holistic approach to education here is remarkable. My son has developed not just academically but as a confident individual."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">M</div>
+          <div class="author-info">
+            <strong>Muhammad Ali</strong>
+            <span>Parent of Grade 5 Student</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+        <p>"Best decision we made for our daughter's education. The creative programs and caring staff make all the difference."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">S</div>
+          <div class="author-info">
+            <strong>Sara Ahmed</strong>
+            <span>Parent of Grade 2 Student</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="home-cta">
+    <div class="cta-bg"></div>
+    <div class="cta-content">
+      <h2>Ready to Give Your Child the Best Start?</h2>
+      <p>Join the EduNest family and watch your child flourish in our nurturing environment</p>
+      <div class="cta-buttons">
+        <a href="contact.html" class="btn-cta-primary">Enroll Now</a>
+        <a href="#" class="btn-cta-secondary"><i class="fas fa-phone"></i> Call Us: +92 306 2742990</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="home-contact">
+    <div class="contact-map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.1256062570793!2d67.0011363752845!3d24.86074477793615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33dfbde4b7bcd%3A0x8bbd37a9d8f9dd11!2sKarachi!5e0!3m2!1sen!2s!4v1690000000000" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class="contact-form-wrapper">
+      <h3>Send Us a Message</h3>
+      <p>Have questions? We'd love to hear from you!</p>
+      <form class="home-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message <i class="fas fa-paper-plane"></i></button>
+      </form>
+    </div>
+  </section>
+
   <footer>
     <div class="footer-container">
       <div class="footer-about">
         <h2>EduNest</h2>
-        <p>
-          Empowering students with knowledge and creativity. Join us in shaping
-          a brighter future through innovation and learning.
-        </p>
+        <p>Empowering students with knowledge and creativity. Join us in shaping a brighter future through innovation and learning.</p>
       </div>
-
       <div class="footer-links">
         <h3>Quick Links</h3>
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="aboutus.html">About Us </a></li>
+          <li><a href="aboutus.html">About Us</a></li>
           <li><a href="pages.html">Pages</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
-
       <div class="footer-contact">
         <h3>Contact</h3>
-        <p>
-          Email:
-          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=babasheri322@gmail.com" target="_blank">
-            babasheri322@gmail.com
-          </a>
-        <p>
-          Phone:
-          <a href="https://wa.me/923062742990" target="_blank">
-            +92 306 2742990
-          </a>
-        </p>
+        <p>Email: <a href="mailto:babasheri322@gmail.com">babasheri322@gmail.com</a></p>
+        <p>Phone: <a href="https://wa.me/923062742990">+92 306 2742990</a></p>
         <div class="social-icons">
           <a href="#"><i class="fab fa-facebook-f"></i></a>
           <a href="#"><i class="fab fa-twitter"></i></a>
@@ -216,48 +308,63 @@
         </div>
       </div>
     </div>
-
     <div class="footer-bottom">
       <p>© 2025 EduNest | All Rights Reserved</p>
     </div>
   </footer>
-  <script>
 
+  <script>
     function toggleMenu() {
-      document.getElementById("navLinks").classList.toggle("active");
+      document.querySelector('.nav-links').classList.toggle('active');
     }
 
-
-    // Gallery slider script
-    const slides = document.querySelectorAll('.slide');
-    const textSide = document.getElementById('textSide');
-
-    const slideData = [
-      { title: 'Symphony of Colors', desc: 'This painting exemplifies childrens creativity.Through vibrant colors and brush strokes, it captures natures beauty in a unique perspective.' },
-      { title: 'Joy of Art Appreciation', desc: 'This image captures two young art enthusiasts deeply observing an abstract painting. Their curiosity and fascination with art reminds us how crucial art education is for holistic development.' },
-      { title: 'Captivated by Art', desc: 'A young art enthusiast, her eyes sparkling with the magic of colors and imagination. She examines each artwork intently, as if unraveling the story behind every brushstroke. Her curiosity reminds us that art isn’t just to be seen—but to be felt and experienced.' },
-      { title: ' Another Devoted to Art', desc: 'Another young artist, every gesture brimming with creativity. She stands before the artworks, as if engaged in a silent dialogue with each hue and stroke. Her focus and passion reveal how art can become the language of our soul.' }
+    // Gallery Slider
+    const gallerySlides = document.querySelectorAll('.gallery-slide');
+    const galleryInfo = document.getElementById('galleryInfo');
+    const dots = document.querySelectorAll('.dot');
+    
+    const galleryData = [
+      { title: 'Symphony of Colors', desc: 'This painting exemplifies children\'s creativity through vibrant colors and brush strokes.' },
+      { title: 'Joy of Art', desc: 'Young art enthusiasts deeply observing abstract paintings, showing the importance of art education.' },
+      { title: 'Captivated by Art', desc: 'A young enthusiast examining artwork intently, unraveling the story behind every brushstroke.' },
+      { title: 'Creative Expression', desc: 'Students engaged in silent dialogue with art, revealing how creativity becomes the language of soul.' }
     ];
 
-    let current = 0;
+    let currentSlide = 0;
 
-    function changeSlide() {
-      slides[current].classList.remove('active');
-      current = (current + 1) % slides.length;
-      slides[current].classList.add('active');
-
-      textSide.style.animation = 'none';
-      textSide.offsetHeight;
-      textSide.style.animation = 'fadeIn 1.2s ease forwards';
-
-      textSide.querySelector('h2').textContent = slideData[current].title;
-      textSide.querySelector('p').textContent = slideData[current].desc;
+    function goToSlide(index) {
+      gallerySlides[currentSlide].classList.remove('active');
+      dots[currentSlide].classList.remove('active');
+      currentSlide = index;
+      gallerySlides[currentSlide].classList.add('active');
+      dots[currentSlide].classList.add('active');
+      galleryInfo.querySelector('h3').textContent = galleryData[currentSlide].title;
+      galleryInfo.querySelector('p').textContent = galleryData[currentSlide].desc;
     }
 
-    setInterval(changeSlide, 3000);
+    function nextSlide() {
+      goToSlide((currentSlide + 1) % gallerySlides.length);
+    }
 
+    setInterval(nextSlide, 4000);
 
+    // Particles
+    particlesJS('particles-js', {
+      "particles": {
+        "number": { "value": 50, "density": { "enable": true, "value_area": 800 } },
+        "color": { "value": "#2d6a4f" },
+        "shape": { "type": "circle" },
+        "opacity": { "value": 0.2, "random": true },
+        "size": { "value": 3, "random": true },
+        "line_linked": { "enable": true, "distance": 150, "color": "#40916c", "opacity": 0.15, "width": 1 },
+        "move": { "enable": true, "speed": 1, "direction": "none", "random": true, "out_mode": "out" }
+      },
+      "interactivity": {
+        "events": { "onhover": { "enable": true, "mode": "grab" } },
+        "modes": { "grab": { "distance": 140, "line_linked": { "opacity": 0.4 } } }
+      },
+      "retina_detect": true
+    });
   </script>
 </body>
-
 </html>
